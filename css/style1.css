@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 18px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/concrete.jpeg");
+}
+
+/*Global */
+.container {
+	width: 80%;
+}
+
+.navbar {
+	height: 56px;
+	background-color: #fff;
+}
+
+#navname {
+	margin-top: 0;
+	margin-left: 0;
+	font-size: 40px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 5px;
+}
+
+.nav {
+	font-size: 25px;
+}
+
+
+.col-md-12 h1 { 
+	margin-left: 5px;
+	color: #4aaaa5;
+	margin-bottom: 0px;
+	border-bottom: 1px groove #A0A5A2;
+}
+
+
+/*portfolio main column*/
+.col-md-7 {
+	background-color: white;
+	margin-top: 20px;
+}	
+
+
+/*portfolio thumbnails*/
+.col-md-4,
+.col-md-8 {
+	padding: 5px 0px 25px 20px;
+}	
+
+.portpics {
+	position: relative;
+}
+
+
+/*thumbnail name*/
+.portname {
+	text-align: center;
+	width: 170px;
+	background-color: #07808A;
+	font-size: 18px;
+	position: absolute;
+	bottom: 5px;
+}
+
+.portname a {
+	text-decoration: none;
+	color: white;
+}
+
+/*panel column*/
+.col-md-5 {
+	padding-left: 100px;
+}
+
+/*panel interior*/
+.panel {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}	
+
+
+footer {
+	text-align: center;
+	font-size: 15px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	padding: 15px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+	.container {
+		width: 75%;
+	}
+
+	.col-md-7 {
+		width: 400px;
+		margin-left: 15px;
+	}
+
+	.col-md-12 h1 {
+		padding-top: 10px;
+	}
+
+	.portpics img {
+		height: 230px;
+		width: 330px;
+	}
+
+	.portname {
+		width: 330px;
+		font-size: 30px;
+	}
+}

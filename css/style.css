@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 18px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/concrete.jpeg");
+}
+
+/*Global */
+.container {
+	width: 80%;
+}
+
+.navbar {
+	height: 56px;
+	background-color: #fff;
+}
+
+#navname {
+	margin-top: 0;
+	font-size: 40px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 5px;
+}
+
+.nav {
+	font-size: 25px;
+}
+
+
+.col-md-12 h1 { 
+	margin-left: 5px;
+	color: #4aaaa5;
+	margin-bottom: 0px;
+	border-bottom: 1px groove #A0A5A2;
+}
+/*main column*/
+.col-md-7 {
+	background-color: white;
+	margin-top: 20px;
+}	
+
+/*picture*/
+.col-md-3 {
+	margin-top: 4px;
+}
+
+.col-md-5 {
+	padding-left: 100px;
+}
+
+
+/*panel column*/
+.panel {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	
+}	
+
+	
+ footer {
+	text-align: center;
+	font-size: 15px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	padding: 15px;
+}
+
+/*RESPONSIVE METRICS*/
+
+@media screen and (max-width: 980px) {
+
+
+	
+
+
+
+	
+
+
+
+
+
